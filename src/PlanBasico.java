@@ -3,4 +3,9 @@ public class PlanBasico implements PlanSuscripcion {
     public double calcularCosto(int meses){
         return 5*meses;
     }
+
+    @Override
+    public String toString(){
+        return "Plan Basico";
+    }
 }

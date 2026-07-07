@@ -20,6 +20,9 @@ public abstract class CuentaUsuario {
     public double obtenerTotalapagar() {
         return plan.calcularCosto(mesesActivos);
     }
+    public PlanSuscripcion getPlan() {
+        return plan;
+    }
 
 }
 

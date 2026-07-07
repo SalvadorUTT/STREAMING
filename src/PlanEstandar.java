@@ -3,4 +3,8 @@ public class PlanEstandar implements PlanSuscripcion {
     public double calcularCosto(int meses){
         return 9*meses;
     }
+    @Override
+    public String toString(){
+        return "Plan Estandar";
+    }
 }
